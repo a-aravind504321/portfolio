@@ -1,0 +1,100 @@
+.ram{
+    padding: 5px;
+    background-color: rgb(242, 242, 180);
+    color: rgb(6, 7, 6);
+    text-decoration-line: underline;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px;
+width: 500px;
+margin: 20px auto;
+transition: border-color 0.3s ease;
+}
+.ram:hover{
+    border-color: cyan;
+    cursor: pointer;
+    }
+.raj{
+    padding: 1px;
+    background-color: rgb(145, 132, 132);
+    color: yellow;
+    border-radius: 12px;
+    border: 2px solid black;
+padding: 10px;
+width: 500px;
+margin: 20px auto;
+transition: border-color 0.3s ease;
+}
+.raj:hover{
+border-color: cyan;
+cursor: pointer;
+}
+.ar{
+    width:100%;
+    padding-left: 50px;
+    color:black;
+    background-color: rgb(139, 193, 139);
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid black;
+    margin: 20px auto;
+    transition: border-color 0.3s ease;
+}
+.ar:hover{
+    border-color: cyan;
+    cursor: pointer;
+    }
+
+.f{
+    text-align: center;
+    background-color: rgb(40, 38, 38);
+    color: white;
+    padding: 5px;border-radius: 12px;
+    border: 2px solid white;
+    width: 500px;
+margin: 20px auto;
+transition: border-color 0.3s ease;
+}
+.f:hover{
+    border-color: cyan;
+    cursor: pointer;
+    }
+    .i {
+        border-radius: 15px;
+        background-color:rgb(236, 236, 232);
+        padding: 10px;
+        width: 500px;
+        border: 2px solid black;
+        margin: 20px auto;
+        display: flex;
+        align-items: center; 
+        gap: 90px;
+        transition: border-color 0.3s ease;
+
+    }
+    
+    .image-and-text {
+        display: flex;
+        align-items: center; /* Vertically align the image and text */
+        gap: 20px; /* Add space between the image and text */
+    }
+    
+    .hobbies {
+        text-align: left; /* Align text to the left */
+    }
+    
+    .hobbies h3 {
+        margin-bottom: 10px;
+    }
+    
+    .hobbies ul {
+        list-style-type: circle; /* Use circle bullets */
+        padding-left: 20px; /* Indent the list for better readability */
+    }
+    .i:hover{
+        border-color: cyan;
+        cursor: pointer;
+        }
+    

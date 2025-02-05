@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aravind's Portfolio</title>
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="exh.css">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f7fc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2, h3, h4 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        /* Header and Footer */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 5px solid #e74c3c;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer h4 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        /* Container */
+        .container {
+            width: 85%;
+            margin: 50px auto;
+        }
+
+        /* Main Content */
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .main-content .section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .main-content .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .main-content img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .main-content h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .main-content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .main-content ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .main-content .skills span {
+            display: inline-block;
+            background-color: #e74c3c;
+            color: white;
+            padding: 8px 18px;
+            margin: 8px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        /* Form Styling */
+        .form-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+        }
+
+        .form-container label {
+            font-size: 18px;
+            color: #333;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .form-container input {
+            width: 100%;
+            padding: 14px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .form-container input:focus {
+            border-color: #e74c3c;
+            outline: none;
+            box-shadow: 0 0 5px rgba(231, 76, 60, 0.3);
+        }
+
+        .form-container button {
+            background-color: #e74c3c;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 18px;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        .form-container button:hover {
+            background-color: #c0392b;
+        }
+
+        /* Footer */
+        footer h4 {
+            font-size: 18px;
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+
+            .main-content .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>Aravind's Portfolio</h2>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+
+            <!-- Basic Information Section -->
+            <div class="section">
+                <h2>Basic Information</h2>
+                <b>Name</b>: <span>Aravind</span><br>
+                <b>College</b>: <span>GPCET</span><br>
+                <b>Course/Branch</b>: <span>B.Tech/CSE</span><br>
+                <b>Contact Details</b>:<br>
+                Phone: <span>9000448639</span><br>
+                Email: <span>arekalaravind321@gmail.com</span><br>
+
+                <h3 style="color: #333;">Skills</h3>
+                <div class="skills">
+                    <span>Java</span>
+                    <span>Python</span>
+                    <span>HTML/CSS</span>
+                </div>
+
+                <h3 style="color: #333;">Projects</h3>
+                <ul>
+                    <li><b>1) Blood Donation Website:</b> <a href="https://github.com/varunsardana004/Blood-Bank-And-Donation-Management-System" style="color: #e74c3c;">Click for Project</a></li>
+                              <pre>              This is a design and implementation of an online Hostel Management System.
+            “ ONLINE HOSTEL MANAGEMENT SYSTEM ” is software developed for managing various 
+              activities in the hostel. For the past few years the number of educational 
+              institutions is increasing rapidly. Thereby the number of hostels is also 
+              increasing for the accommodation of the students studying in this institution. 
+              And hence there is a lot of strain on the person who are running the hostel 
+              and software’s are not usually used in this context. This particular project 
+              deals with the problems on managing a hostel and avoids the problems which 
+              occur when carried manually. Identification of the drawbacks of the existing 
+              system leads to the designing of computerized system that will be compatible 
+              to the existing system with the system which is more user friendly and more GUI 
+              oriented.We can improve the efficiency of the system, thus overcome the drawbacks 
+              of the existing system</pre>
+
+                    <li><b>2) Online Marketing:</b> <a href="https://github.com/topics/hostel-management-system?l=php&o=desc&s=" style="color: #e74c3c;">Click for Project</a></li>
+                    <pre>             Digital marketing, also called online marketing, is the promotion of brands to connect 
+             with potential customers using the internet and other forms of digital communication. 
+             This includes not only email, social media, and web-based advertising, but also text 
+             and multimedia messages as a marketing channel.</pre>
+                </ul>
+            </div>
+
+            <!-- Image and Hobbies Section -->
+            <div class="section">
+                <div style="text-align: center;">
+                    <img src="hari.jpg" alt="Aravind's Image">
+                    <h2>My Hobbies</h2>
+                </div>
+                <ul>
+                    <li>Watching Movies</li>
+                    <li>Sleeping</li>
+                    <li>Learning Coding</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Contact Form Section -->
+        <div class="form-container">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <h4>Thanks for visiting!</h4>
+    </footer>
+
+</body>
+</html>
